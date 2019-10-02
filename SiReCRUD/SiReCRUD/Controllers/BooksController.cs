@@ -14,7 +14,7 @@ namespace SiReCRUD.Controllers
     public class BooksController : ControllerBase
     {
 
-        private static readonly List<Book> books = new List<Book>()
+        private static List<Book> books = new List<Book>()
         {
             new Book("It", "Devin Mcquire", 150, 1000000000001),
             new Book("De Vises Sten", "J K Rowling", 320, 1000000000002),
